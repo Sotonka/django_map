@@ -1,6 +1,6 @@
 from .models import UnverifiedTag, Tag
 from django.forms import ModelForm, TextInput, Textarea, EmailInput, FileInput
-
+from django import forms
 
 class TagForm(ModelForm):
     class Meta:

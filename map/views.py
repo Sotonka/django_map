@@ -62,47 +62,31 @@ def add_tag(filename='static/tags/tags.json',
         data = json.load(json_file)
         temp = data['features']
         if image == '/media/no%20pic':
-            y = {"type": "Feature",
-                 "id": tag_id,
-                 "geometry": {
-                     "type": "Point",
-                      "coordinates": [coord_x, coord_y],
-                 },
-                 "properties": {
-                     "balloonContentHeader":
-                         "<font size=3><b><div id='output_name'>" + name + "</div></b></font>",
-                     "balloonContentBody":
-                         "<div>" + description + "</div>"
-                         "<span>" + 'Нет картинки' + "</span>"
-                         "<div>" + location + "</div>",
-                     "balloonContentFooter":
-                         "<div>" + user.username + "</div>"
-                 },
-                 "options": {
-                     "preset": preset
-                 }}
+            image = 'Нет Изображения'
         else:
-            y = {"type": "Feature",
-                 "id": tag_id,
-                 "geometry": {
-                    "type": "Point",
-                    "coordinates": [coord_x, coord_y]
-                 },
-                 "properties": {
-                     "balloonContentHeader":
-                         "<font size=3><b><div id='output_name'>" + name + "</div></b></font>",
-                     "balloonContentBody":
-                         "<div>" + description + "</div>"
-                         "<img src='" + image + "' height='150' width='200'> <br/>"
-                         "<div>" + location + "</div>",
-                     "balloonContentFooter":
-                         "<div>" + user.username + "</div>"
-                 },
-                 "options": {
-                     "preset": preset
-                 }}
+            image = "<img src='" + image + "' height='150' width='200'> <br/>"
 
-        temp.append(y)
+        tag_html = {"type": "Feature",
+             "id": tag_id,
+             "geometry": {
+                "type": "Point",
+                "coordinates": [coord_x, coord_y]
+             },
+             "properties": {
+                 "balloonContentHeader":
+                     "<font size=3><b><div id='output_name'>" + name + "</div></b></font>",
+                 "balloonContentBody":
+                     "<div>" + description + "</div>"
+                     + image +
+                     "<div>" + location + "</div>",
+                 "balloonContentFooter":
+                     "<div>" + user.username + "</div>"
+             },
+             "options": {
+                 "preset": preset
+             }}
+
+        temp.append(tag_html)
     write_json(data)
 
 def index(request):
@@ -131,6 +115,7 @@ def index(request):
                     image=tag.image.url)
 
     if request.method == 'POST' and 'btnform1' in request.POST:
+        # post для формы авторизованного пользователя (сайдбар)
 
         form = TagForm(request.POST, request.FILES)
 
@@ -144,6 +129,7 @@ def index(request):
             return render(request, 'include/error.html')
 
     if request.method == 'POST' and 'btnform2' in request.POST:
+        # пост для формы неавторизованного пользователя (сайдбар)
 
         form = UnverifiedTagForm(request.POST, request.FILES)
 
@@ -151,6 +137,7 @@ def index(request):
             tag = form.save(commit=False)
             tag.save()
 
+            # отправка email
             message = EmailMessage(
                 'Запрос на создание метки',
                 'Name:' + tag.name + ' Description:' + tag.description + '',
@@ -173,6 +160,9 @@ def index(request):
 
 
 def contacts(request):
+    """
+    Контакты, обратная связь - отправка email
+    """
     if request.method == 'POST':
         form = Contactform(request.POST)
         if form.is_valid():
@@ -207,7 +197,7 @@ def ternms_of_use(request):
 @login_required(login_url='/accounts/login/')
 def my_tags(request):
     """
-    Отображение собственных меток пользователя на странице
+    Отображение собственных меток пользователя на странице пользователя
     """
 
     tag_list = Tag.objects.filter(user=request.user)
@@ -250,7 +240,7 @@ def admin_tags(request, tag_id=None, action=None):
                 name=approved_tag.name,
                 description=approved_tag.description,
                 location=approved_tag.location,
-                user=User.objects.get(username='moderator'),
+                user=User.objects.get(username='admin'),
                 x_coord=approved_tag.x_coord,
                 y_coord=approved_tag.y_coord)
             UnverifiedTag.objects.get(id=tag_id).delete()

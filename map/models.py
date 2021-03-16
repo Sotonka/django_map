@@ -4,7 +4,17 @@ import uuid
 
 
 class UnverifiedTag(models.Model):
-
+    """
+    Метка от неавторизованного пользователя
+    name: название метки
+    description: описание
+    image: адрес изображения
+    location: местоположение
+    x_coord: координата x
+    y_coord: координата y
+    username: имя пользователя
+    email:  email ользователя
+    """
     def images_directory_path(instance, filename):
         return '/'.join(['images', str(uuid.uuid4().hex + ".png")])
 
@@ -22,12 +32,21 @@ class UnverifiedTag(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = 'Метка(*)'
-        verbose_name_plural = 'Метки(*)'
+        verbose_name = 'Метка(неавторизованный)'
+        verbose_name_plural = 'Метки(неавторизованный)'
 
 
 class Tag(models.Model):
-
+    """
+    Метка от авторизованного пользователя
+    name: название метки
+    description: описание
+    image: адрес изображения
+    location: местоположение
+    x_coord: координата x
+    y_coord: координата y
+    user: внешний ключ
+    """
     def images_directory_path(instance, filename):
         return '/'.join(['images', str(uuid.uuid4().hex + ".png")])
 

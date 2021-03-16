@@ -128,6 +128,7 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 SERVER_EMAIL = 'django@my-domain.com'
 
+# email для отправки сообщений о добавлении метки
 MODERATOR_EMAIL = 'puncong@mail.ru'
 
 

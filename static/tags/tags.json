@@ -3,94 +3,18 @@
     "features": [
         {
             "type": "Feature",
-            "id": 60,
+            "id": 80,
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    48.488744852608846,
-                    135.0562100422363
+                    48.4861202926643,
+                    135.04676866650385
                 ]
             },
             "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag1_admin</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/f2a087ae6c0f4afda9a9468a22026c86.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>admin</div>"
-            },
-            "options": {
-                "preset": "islands#blueDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 61,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.48908717644177,
-                    135.07389116406247
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag2_admin</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/28c38fba18e44de1a6594ba430c8035a.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>admin</div>"
-            },
-            "options": {
-                "preset": "islands#blueDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 62,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.4897718171341,
-                    135.0920872700195
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag3_admin</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/8e7e5af711334ac3938e8caa6fcce095.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>admin</div>"
-            },
-            "options": {
-                "preset": "islands#blueDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 63,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.489315391038986,
-                    135.11011171459958
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag4_admin</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/28ca4a9ea89a4854961efcf122c78f78.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>admin</div>"
-            },
-            "options": {
-                "preset": "islands#blueDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 64,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.48098488890483,
-                    135.05672502636716
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag1_test1</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/e0d83829039840708401a8b33d03bd27.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>test1</div>"
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User1</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/c9d129a2271d4d228f86672a1d99fe52.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user1</div>"
             },
             "options": {
                 "preset": "islands#greenDotIcon"
@@ -98,18 +22,18 @@
         },
         {
             "type": "Feature",
-            "id": 65,
+            "id": 81,
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    48.48235438104782,
-                    135.07371950268552
+                    48.47835992500304,
+                    135.0474553120117
                 ]
             },
             "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag2_test1</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/865b623fc051468c99d11c866a785052.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>test1</div>"
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User2</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/4171b50341fd4c0cb3e659cde3b0f900.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user2</div>"
             },
             "options": {
                 "preset": "islands#greenDotIcon"
@@ -117,18 +41,18 @@
         },
         {
             "type": "Feature",
-            "id": 66,
+            "id": 82,
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    48.48303911317185,
-                    135.09225893139646
+                    48.4789571891218,
+                    135.05900417673357
                 ]
             },
             "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag3_test1</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/ee923e5659e043e586462e81571158c1.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>test1</div>"
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User2 2</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/70585524af3949f8bd35a74b5472a89c.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user2</div>"
             },
             "options": {
                 "preset": "islands#greenDotIcon"
@@ -136,18 +60,18 @@
         },
         {
             "type": "Feature",
-            "id": 67,
+            "id": 83,
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    48.483952074873244,
-                    135.1104550373535
+                    48.47847405670953,
+                    135.07165956616205
                 ]
             },
             "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag4_test1</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div><img src='/media/images/1955c8b2037e468880651f7f78fd8e65.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>test1</div>"
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User2 3</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/1597f855f3f4406c8851d0b1aedd6f79.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user2</div>"
             },
             "options": {
                 "preset": "islands#greenDotIcon"
@@ -155,192 +79,173 @@
         },
         {
             "type": "Feature",
-            "id": 69,
+            "id": 84,
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    48.47265301035488,
+                    48.479044711367585,
+                    135.08230257153315
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User2 4</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/2737fa8ab0c84294aa5575aea176967a.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user2</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 85,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.48691908624155,
+                    135.05998659252924
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User1 2</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/12b394acd20d4ee38233f0de19f40f26.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user1</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.48714731065338,
+                    135.07303285717768
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User1 3</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/f5f02e1e73c9412aa64805995a35b3e3.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user1</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 87,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.48737553403208,
+                    135.08487749218745
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>User1 4</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div><img src='/media/images/889cc7af3bf04403bc8702c3e6009dcf.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>user1</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 88,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.49867130002972,
+                    135.04470872998044
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>Unauth1</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>\u041d\u0435\u0442 \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f<div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>admin</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 89,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.501979681428416,
+                    135.06101656079096
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>Unauth2</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>\u041d\u0435\u0442 \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f<div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>admin</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 90,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.50346267844621,
+                    135.08024263500974
+                ]
+            },
+            "properties": {
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>Unauth3</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>\u041d\u0435\u0442 \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f<div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
+                "balloonContentFooter": "<div>admin</div>"
+            },
+            "options": {
+                "preset": "islands#greenDotIcon"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 91,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.50369082795966,
                     135.11165666699216
                 ]
             },
             "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag4_unauth</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>moderator</div>"
-            },
-            "options": {
-                "preset": "islands#greenDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 70,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.46226476857235,
-                    135.07577943920893
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag6_unauth</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>moderator</div>"
-            },
-            "options": {
-                "preset": "islands#greenDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 71,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.46546137848439,
-                    135.11285829663083
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag8_unauth</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>moderator</div>"
-            },
-            "options": {
-                "preset": "islands#greenDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 72,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.470826661286964,
-                    135.11011171459958
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag3_unauth</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>moderator</div>"
-            },
-            "options": {
-                "preset": "islands#greenDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 73,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.46477640769444,
-                    135.06067323803708
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>Tag5_unauth</div></b></font>",
-                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>moderator</div>"
-            },
-            "options": {
-                "preset": "islands#greenDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 74,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.48908717644177,
-                    135.15903520703122
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>2</div></b></font>",
-                "balloonContentBody": "<div>\u0432\u0430\u0432\u044b</div><img src='/media/images/71e5d4a33ebf45068ec6d51b02daf431.png' height='150' width='200'> <br/><div>\u044b\u0432\u0430</div>",
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>Unauth4</div></b></font>",
+                "balloonContentBody": "<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>\u041d\u0435\u0442 \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f<div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
                 "balloonContentFooter": "<div>admin</div>"
             },
             "options": {
-                "preset": "islands#blueDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 75,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.4419387267091,
-                    135.05294847607416
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>11111111111</div></b></font>",
-                "balloonContentBody": "<div>1</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>sf</div>",
-                "balloonContentFooter": "<div>admin</div>"
-            },
-            "options": {
-                "preset": "islands#blueDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 76,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.50662580541037,
-                    135.1492246632415
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>12312</div></b></font>",
-                "balloonContentBody": "<div>1231231</div><span>\u041d\u0435\u0442 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438</span><div>123</div>",
-                "balloonContentFooter": "<div>moderator</div>"
-            },
-            "options": {
                 "preset": "islands#greenDotIcon"
             }
         },
         {
             "type": "Feature",
-            "id": 77,
+            "id": 92,
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    48.517055378022896,
-                    135.0445370686035
+                    48.4897718171341,
+                    135.17757463574216
                 ]
             },
             "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>1111111111111</div></b></font>",
-                "balloonContentBody": "<div>1111</div><img src='/media/images/9da3467198a942b1a687da0829553d3f.png' height='150' width='200'> <br/><div>\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a</div>",
-                "balloonContentFooter": "<div>test2</div>"
-            },
-            "options": {
-                "preset": "islands#greenDotIcon"
-            }
-        },
-        {
-            "type": "Feature",
-            "id": 78,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    48.474821713988995,
-                    135.15131044506833
-                ]
-            },
-            "properties": {
-                "balloonContentHeader": "<font size=3><b><div id='output_name'>sesdadada</div></b></font>",
-                "balloonContentBody": "<div>adad</div><img src='/media/images/3069b58cd83540d795d673df86883b62.png' height='150' width='200'> <br/><div>zczc</div>",
+                "balloonContentHeader": "<font size=3><b><div id='output_name'>1231</div></b></font>",
+                "balloonContentBody": "<div>123</div>\u041d\u0435\u0442 \u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f<div>123123</div>",
                 "balloonContentFooter": "<div>admin</div>"
             },
             "options": {
-                "preset": "islands#blueDotIcon"
+                "preset": "islands#greenDotIcon"
             }
         }
     ]

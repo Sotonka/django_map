@@ -3,6 +3,9 @@ from django.forms import ModelForm, TextInput, Textarea, EmailInput, FileInput
 from django import forms
 
 class TagForm(ModelForm):
+    """
+    Форма ввода данных о метке для авторизованного пользователя(сайдбар)
+    """
     class Meta:
         model = Tag
         fields = [
@@ -46,6 +49,9 @@ class TagForm(ModelForm):
 
 
 class UnverifiedTagForm(ModelForm):
+    """
+    Форма ффода данных о метке для неавторизованного пользователя(сайдбар)
+    """
     class Meta:
         model = UnverifiedTag
         fields = [
@@ -99,6 +105,9 @@ class UnverifiedTagForm(ModelForm):
         }
 
 class Contactform(forms.Form):
+    """
+    Форма обратной связи(страница контакты)
+    """
     subject = forms.CharField(
         label="Имя",
         widget=forms.TextInput
